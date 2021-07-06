@@ -1,0 +1,15 @@
+D: /lib
+D: /lib/netstandard2.0
+F: /lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+F: /lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D: /_rels
+F: /_rels/.rels
+D: /package
+D: /package/services
+D: /package/services/metadata
+D: /package/services/metadata/core-properties
+F: /package/services/metadata/core-properties/d39d18eed1d44f61892708cbeb4436e0.psmdcp
+F: /Microsoft.AspNetCore.Mvc.ApiExplorer.nuspec
+F: /[Content_Types].xml
+F: /microsoft.aspnetcore.mvc.apiexplorer.2.2.0.nupkg
+F: /.signature.p7s

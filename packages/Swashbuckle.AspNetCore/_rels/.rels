@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Type="http://schemas.microsoft.com/packaging/2010/07/manifest" Target="/Swashbuckle.AspNetCore.nuspec" Id="R445376BC3F8EA8F2" />
+  <Relationship Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="/package/services/metadata/core-properties/a1185af3beff4fbb9b298cd7e54f0fe3.psmdcp" Id="R10B8670959B0FC12" />
+</Relationships>

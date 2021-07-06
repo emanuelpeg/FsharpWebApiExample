@@ -1,0 +1,6 @@
+EntityFrameworkCore.FSharp
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Sqlite
+Swashbuckle.AspNetCore
+FSharp.Core

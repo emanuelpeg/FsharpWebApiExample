@@ -1,0 +1,15 @@
+D: /lib
+D: /lib/netstandard2.1
+F: /lib/netstandard2.1/_._
+D: /_rels
+F: /_rels/.rels
+D: /package
+D: /package/services
+D: /package/services/metadata
+D: /package/services/metadata/core-properties
+F: /package/services/metadata/core-properties/f3479576742d447ea144d39966b956d4.psmdcp
+F: /microsoft.entityframeworkcore.sqlite.5.0.6.nupkg
+F: /[Content_Types].xml
+F: /Icon.png
+F: /Microsoft.EntityFrameworkCore.Sqlite.nuspec
+F: /.signature.p7s

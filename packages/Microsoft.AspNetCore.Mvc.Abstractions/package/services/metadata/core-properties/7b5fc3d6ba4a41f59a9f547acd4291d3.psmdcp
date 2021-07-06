@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Microsoft</dc:creator>
+  <dc:description>ASP.NET Core MVC abstractions and interfaces for action invocation and dispatching, authorization, action filters, formatters, model binding, routing, validation, and more.
+Commonly used types:
+Microsoft.AspNetCore.Mvc.IActionResult
+
+This package was built from the source code at https://github.com/aspnet/Mvc/tree/a6199bbfbab05583f987bae322fb04566841aaea</dc:description>
+  <dc:identifier>Microsoft.AspNetCore.Mvc.Abstractions</dc:identifier>
+  <version>2.2.0</version>
+  <keywords>aspnetcore aspnetcoremvc</keywords>
+  <lastModifiedBy>NuGet.Build.Tasks.Pack, Version=4.9.0.5, Culture=neutral, PublicKeyToken=31bf3856ad364e35;</lastModifiedBy>
+</coreProperties>

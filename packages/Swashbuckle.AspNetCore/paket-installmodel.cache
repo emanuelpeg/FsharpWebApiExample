@@ -1,0 +1,13 @@
+D: /build
+F: /build/Swashbuckle.AspNetCore.props
+D: /_rels
+F: /_rels/.rels
+D: /package
+D: /package/services
+D: /package/services/metadata
+D: /package/services/metadata/core-properties
+F: /package/services/metadata/core-properties/a1185af3beff4fbb9b298cd7e54f0fe3.psmdcp
+F: /swashbuckle.aspnetcore.5.6.3.nupkg
+F: /[Content_Types].xml
+F: /Swashbuckle.AspNetCore.nuspec
+F: /.signature.p7s

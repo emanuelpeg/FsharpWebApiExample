@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>EntityFrameworkCore.FSharp</name></assembly>
+<members>
+<member name="T:EntityFrameworkCore.FSharp.ScaffoldNullableColumnsAs.NullableTypes">
+ <summary>A nullable column of type <c>'a</c> should be represented as <c>Nullable&lt;'a&gt;</c></summary>
+</member>
+<member name="T:EntityFrameworkCore.FSharp.ScaffoldNullableColumnsAs.OptionTypes">
+ <summary>A nullable column of type <c>'a</c> should be represented as <c>'a option</c></summary>
+</member>
+<member name="T:EntityFrameworkCore.FSharp.ScaffoldNullableColumnsAs">
+ <summary>A type representing how nullable columns in scaffolded databases should be represented</summary>
+</member>
+<member name="T:EntityFrameworkCore.FSharp.ScaffoldTypesAs.ClassType">
+ <summary>Objects should be generated similar to how a C# class behaves</summary>
+</member>
+<member name="T:EntityFrameworkCore.FSharp.ScaffoldTypesAs.RecordType">
+ <summary>Objects should be generated as a standard F# record</summary>
+</member>
+<member name="T:EntityFrameworkCore.FSharp.ScaffoldTypesAs">
+ <summary>A type representing how scaffolded objects should be generated</summary>
+</member>
+<member name="M:EntityFrameworkCore.FSharp.Scaffolding.AttributeWriter.ToString">
+<summary>
+ Write attribute to string
+</summary>
+</member>
+<member name="M:EntityFrameworkCore.FSharp.Scaffolding.AttributeWriter.AddParameter(System.String)">
+<summary>
+ Add parameter to Attribute
+</summary>
+</member>
+<member name="T:EntityFrameworkCore.FSharp.Scaffolding.AttributeWriter">
+<summary>
+ Create attributes of a given name
+</summary>
+</member>
+<member name="M:EntityFrameworkCore.FSharp.DbContextHelpers.updateEntity``2(Microsoft.EntityFrameworkCore.DbContext,Microsoft.FSharp.Core.FSharpFunc{``0,``1},``0)">
+<summary>
+ Helper method for saving an updated record type
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,14 @@
+D: /lib
+D: /lib/netstandard2.0
+F: /lib/netstandard2.0/SQLitePCLRaw.core.dll
+D: /_rels
+F: /_rels/.rels
+D: /package
+D: /package/services
+D: /package/services/metadata
+D: /package/services/metadata/core-properties
+F: /package/services/metadata/core-properties/321dd449a93b415894c1f605e45e5ec4.psmdcp
+F: /sqlitepclraw.core.2.0.4.nupkg
+F: /[Content_Types].xml
+F: /SQLitePCLRaw.core.nuspec
+F: /.signature.p7s

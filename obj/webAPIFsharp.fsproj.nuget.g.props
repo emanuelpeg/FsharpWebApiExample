@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/emanuel/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/emanuel/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/home/emanuel/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)fsharp.core/5.0.2/contentFiles/any/netstandard2.0/FSharp.Core.xml" Condition="Exists('$(NuGetPackageRoot)fsharp.core/5.0.2/contentFiles/any/netstandard2.0/FSharp.Core.xml')">
+      <NuGetPackageId>FSharp.Core</NuGetPackageId>
+      <NuGetPackageVersion>5.0.2</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>FSharp.Core.xml</TargetPath>
+      <Private>True</Private>
+      <Link>FSharp.Core.xml</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.apidescription.server/5.0.7/build/Microsoft.Extensions.ApiDescription.Server.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.apidescription.server/5.0.7/build/Microsoft.Extensions.ApiDescription.Server.props')" />
+    <Import Project="$(NuGetPackageRoot)swashbuckle.aspnetcore/5.6.3/build/Swashbuckle.AspNetCore.props" Condition="Exists('$(NuGetPackageRoot)swashbuckle.aspnetcore/5.6.3/build/Swashbuckle.AspNetCore.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design/5.0.6/build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design/5.0.6/build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props')" />
+    <Import Project="$(NuGetPackageRoot)entityframeworkcore.fsharp/5.0.3-beta004/build/net5.0/EntityFrameworkCore.FSharp.props" Condition="Exists('$(NuGetPackageRoot)entityframeworkcore.fsharp/5.0.3-beta004/build/net5.0/EntityFrameworkCore.FSharp.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSystem_Memory Condition=" '$(PkgSystem_Memory)' == '' ">/home/emanuel/.nuget/packages/system.memory/4.5.4</PkgSystem_Memory>
+    <PkgSystem_Diagnostics_DiagnosticSource Condition=" '$(PkgSystem_Diagnostics_DiagnosticSource)' == '' ">/home/emanuel/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1</PkgSystem_Diagnostics_DiagnosticSource>
+    <PkgSystem_ComponentModel_Annotations Condition=" '$(PkgSystem_ComponentModel_Annotations)' == '' ">/home/emanuel/.nuget/packages/system.componentmodel.annotations/5.0.0</PkgSystem_ComponentModel_Annotations>
+    <PkgSystem_Collections_Immutable Condition=" '$(PkgSystem_Collections_Immutable)' == '' ">/home/emanuel/.nuget/packages/system.collections.immutable/5.0.0</PkgSystem_Collections_Immutable>
+    <PkgSwashbuckle_AspNetCore_SwaggerUI Condition=" '$(PkgSwashbuckle_AspNetCore_SwaggerUI)' == '' ">/home/emanuel/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.4</PkgSwashbuckle_AspNetCore_SwaggerUI>
+    <PkgMicrosoft_OpenApi Condition=" '$(PkgMicrosoft_OpenApi)' == '' ">/home/emanuel/.nuget/packages/microsoft.openapi/1.2.3</PkgMicrosoft_OpenApi>
+    <PkgSwashbuckle_AspNetCore_Swagger Condition=" '$(PkgSwashbuckle_AspNetCore_Swagger)' == '' ">/home/emanuel/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.4</PkgSwashbuckle_AspNetCore_Swagger>
+    <PkgSwashbuckle_AspNetCore_SwaggerGen Condition=" '$(PkgSwashbuckle_AspNetCore_SwaggerGen)' == '' ">/home/emanuel/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.4</PkgSwashbuckle_AspNetCore_SwaggerGen>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.apidescription.server/5.0.7</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgSwashbuckle_AspNetCore Condition=" '$(PkgSwashbuckle_AspNetCore)' == '' ">/home/emanuel/.nuget/packages/swashbuckle.aspnetcore/5.6.3</PkgSwashbuckle_AspNetCore>
+    <PkgSQLitePCLRaw_core Condition=" '$(PkgSQLitePCLRaw_core)' == '' ">/home/emanuel/.nuget/packages/sqlitepclraw.core/2.0.4</PkgSQLitePCLRaw_core>
+    <PkgSQLitePCLRaw_provider_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_provider_e_sqlite3)' == '' ">/home/emanuel/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.4</PkgSQLitePCLRaw_provider_e_sqlite3>
+    <PkgSQLitePCLRaw_provider_dynamic_cdecl Condition=" '$(PkgSQLitePCLRaw_provider_dynamic_cdecl)' == '' ">/home/emanuel/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.4</PkgSQLitePCLRaw_provider_dynamic_cdecl>
+    <PkgSQLitePCLRaw_lib_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_lib_e_sqlite3)' == '' ">/home/emanuel/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4</PkgSQLitePCLRaw_lib_e_sqlite3>
+    <PkgSQLitePCLRaw_bundle_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_bundle_e_sqlite3)' == '' ">/home/emanuel/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4</PkgSQLitePCLRaw_bundle_e_sqlite3>
+    <PkgMicrosoft_Extensions_Primitives Condition=" '$(PkgMicrosoft_Extensions_Primitives)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.primitives/5.0.1</PkgMicrosoft_Extensions_Primitives>
+    <PkgMicrosoft_Extensions_DependencyInjection_Abstractions Condition=" '$(PkgMicrosoft_Extensions_DependencyInjection_Abstractions)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0</PkgMicrosoft_Extensions_DependencyInjection_Abstractions>
+    <PkgMicrosoft_Extensions_Options Condition=" '$(PkgMicrosoft_Extensions_Options)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.options/5.0.0</PkgMicrosoft_Extensions_Options>
+    <PkgMicrosoft_Extensions_Logging_Abstractions Condition=" '$(PkgMicrosoft_Extensions_Logging_Abstractions)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0</PkgMicrosoft_Extensions_Logging_Abstractions>
+    <PkgMicrosoft_Extensions_DependencyInjection Condition=" '$(PkgMicrosoft_Extensions_DependencyInjection)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1</PkgMicrosoft_Extensions_DependencyInjection>
+    <PkgMicrosoft_Extensions_Logging Condition=" '$(PkgMicrosoft_Extensions_Logging)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.logging/5.0.0</PkgMicrosoft_Extensions_Logging>
+    <PkgMicrosoft_Extensions_DependencyModel Condition=" '$(PkgMicrosoft_Extensions_DependencyModel)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.dependencymodel/5.0.0</PkgMicrosoft_Extensions_DependencyModel>
+    <PkgMicrosoft_Extensions_Configuration_Abstractions Condition=" '$(PkgMicrosoft_Extensions_Configuration_Abstractions)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0</PkgMicrosoft_Extensions_Configuration_Abstractions>
+    <PkgMicrosoft_Extensions_Caching_Abstractions Condition=" '$(PkgMicrosoft_Extensions_Caching_Abstractions)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0</PkgMicrosoft_Extensions_Caching_Abstractions>
+    <PkgMicrosoft_Extensions_Caching_Memory Condition=" '$(PkgMicrosoft_Extensions_Caching_Memory)' == '' ">/home/emanuel/.nuget/packages/microsoft.extensions.caching.memory/5.0.0</PkgMicrosoft_Extensions_Caching_Memory>
+    <PkgMicrosoft_EntityFrameworkCore_Analyzers Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Analyzers)' == '' ">/home/emanuel/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.7</PkgMicrosoft_EntityFrameworkCore_Analyzers>
+    <PkgMicrosoft_EntityFrameworkCore_Abstractions Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Abstractions)' == '' ">/home/emanuel/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.7</PkgMicrosoft_EntityFrameworkCore_Abstractions>
+    <PkgMicrosoft_EntityFrameworkCore Condition=" '$(PkgMicrosoft_EntityFrameworkCore)' == '' ">/home/emanuel/.nuget/packages/microsoft.entityframeworkcore/5.0.6</PkgMicrosoft_EntityFrameworkCore>
+    <PkgMicrosoft_EntityFrameworkCore_Relational Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Relational)' == '' ">/home/emanuel/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.6</PkgMicrosoft_EntityFrameworkCore_Relational>
+    <PkgMicrosoft_DotNet_PlatformAbstractions Condition=" '$(PkgMicrosoft_DotNet_PlatformAbstractions)' == '' ">/home/emanuel/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6</PkgMicrosoft_DotNet_PlatformAbstractions>
+    <PkgMicrosoft_Data_Sqlite_Core Condition=" '$(PkgMicrosoft_Data_Sqlite_Core)' == '' ">/home/emanuel/.nuget/packages/microsoft.data.sqlite.core/5.0.7</PkgMicrosoft_Data_Sqlite_Core>
+    <PkgMicrosoft_EntityFrameworkCore_Sqlite_Core Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Sqlite_Core)' == '' ">/home/emanuel/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/5.0.6</PkgMicrosoft_EntityFrameworkCore_Sqlite_Core>
+    <PkgMicrosoft_EntityFrameworkCore_Sqlite Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Sqlite)' == '' ">/home/emanuel/.nuget/packages/microsoft.entityframeworkcore.sqlite/5.0.6</PkgMicrosoft_EntityFrameworkCore_Sqlite>
+    <PkgMicrosoft_CSharp Condition=" '$(PkgMicrosoft_CSharp)' == '' ">/home/emanuel/.nuget/packages/microsoft.csharp/4.7.0</PkgMicrosoft_CSharp>
+    <PkgHumanizer_Core Condition=" '$(PkgHumanizer_Core)' == '' ">/home/emanuel/.nuget/packages/humanizer.core/2.11.10</PkgHumanizer_Core>
+    <PkgMicrosoft_EntityFrameworkCore_Design Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Design)' == '' ">/home/emanuel/.nuget/packages/microsoft.entityframeworkcore.design/5.0.6</PkgMicrosoft_EntityFrameworkCore_Design>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/emanuel/.nuget/packages/fsharp.core/5.0.2</PkgFSharp_Core>
+    <PkgEntityFrameworkCore_FSharp Condition=" '$(PkgEntityFrameworkCore_FSharp)' == '' ">/home/emanuel/.nuget/packages/entityframeworkcore.fsharp/5.0.3-beta004</PkgEntityFrameworkCore_FSharp>
+  </PropertyGroup>
+</Project>

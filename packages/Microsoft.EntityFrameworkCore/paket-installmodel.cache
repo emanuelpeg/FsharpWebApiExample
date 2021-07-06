@@ -1,0 +1,16 @@
+D: /lib
+D: /lib/netstandard2.1
+F: /lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll
+F: /lib/netstandard2.1/Microsoft.EntityFrameworkCore.xml
+D: /_rels
+F: /_rels/.rels
+D: /package
+D: /package/services
+D: /package/services/metadata
+D: /package/services/metadata/core-properties
+F: /package/services/metadata/core-properties/1334e734d4f349bdb4ecc3f6c26d8605.psmdcp
+F: /Microsoft.EntityFrameworkCore.nuspec
+F: /microsoft.entityframeworkcore.5.0.6.nupkg
+F: /[Content_Types].xml
+F: /Icon.png
+F: /.signature.p7s
